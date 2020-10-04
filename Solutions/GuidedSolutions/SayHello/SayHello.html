@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Say Hello</title>
+		<script>
+			function runner() {
+				//prompt user for their name
+				let name = prompt("Enter your name: ");			
+				//say hello using passed name	
+				sayHello(name);
+			}
+
+			function sayHello(name) {
+				//alert name in correct format
+				alert("Hello, " + name + "!");
+			}
+		</script>
+	</head>
+	<body>
+		<button onclick="runner()">Say Hello!</button>
+	</body>
+
+</html>
