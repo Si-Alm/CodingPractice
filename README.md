@@ -11,7 +11,7 @@ If you're contributing to solutions you're more likely a beginner, so the first 
 4. Create a new branch with the format `<username>_<practicename>`
 5. Create a directory under `Solutions` with the same name as your branch
 6. Get to coding! 
-	1. Try to come up with your own solution at first, but if you get stuck feel free to look at other's solutions. However, any copy-pasted solutions will be marked 
+	1. Try to come up with your own solution at first, but if you get stuck feel free to look at other's solutions. However, any copy-pasted solutions will not be accepted.
 7. Once you have a solution add, commit, and push your new branch
 8. Make a pull request for your changes
 9. Bam! Wait for any review and watch your branch get merged.
