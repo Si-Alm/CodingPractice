@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>String Reverser</title>
+		<script>
+			function run() {
+				//some strings to test your function
+				let strings = ["Hacktoberfest", "Coding is fun", "Another string"];
+				strings.forEach(string => console.log(reverseString(string)));
+			}
+
+			//function to complete
+			function reverseString(string) {
+				return string.split("").reverse().join("");
+			}	
+		</script>
+	</head>
+
+	<body>
+		<button onclick="run();">Reverse some strings!</button>
+	</body>
+
+</html>
+
