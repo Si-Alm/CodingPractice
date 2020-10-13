@@ -1,11 +1,9 @@
 def main():
-	#prompt user for their name and call it in say_hello
-	name = input("Enter your name: ")
-	say_hello(name)
+	#Hello world test
+	say_hello("World")
+	
+	#Make it more interesting, prompt a user for their name and call the function with user input
 
 def say_hello(name):
-	#print name in correct format
-	print("Hello, " + name + "!")
-
-#call main
-main()
+	#finish the say hello function
+	#reminder: function should print "Hello, <name>!"
